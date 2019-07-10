@@ -3,7 +3,6 @@
 `kube-ssm-agent` is a set of `Dockerfile` and a Kubernetes manifest file to deploy `aws-ssm-agent` onto Kubernetes nodes.
 
 ## Getting started
-
 Clone this repository and run:
 
 ```console
