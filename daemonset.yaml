@@ -16,7 +16,7 @@ spec:
       hostNetwork: true
       hostPID: true
       containers:
-      - image: mumoshu/aws-ssm-agent:v0.3.0
+      - image: quay.io/innervate/aws-ssm-agent:v0.3.0
         name: ssm-agent
         securityContext:
           runAsUser: 0
