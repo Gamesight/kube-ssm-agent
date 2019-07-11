@@ -8,7 +8,7 @@ jobs:
     - setup_remote_docker
     - run:
         command: |
-          docker login -u="$DOCKER_USER" -p="$DOCKER_PASS"
+          docker login -u $DOCKER_USER -p $DOCKER_PASS quay.io
           make build push
 workflows:
   version: 2
